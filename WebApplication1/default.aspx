@@ -22,7 +22,6 @@
             window.location.href = url;
         }
         
-
         $(function () {
             $('#Login').click(function (e) {
                 Login();
@@ -33,9 +32,11 @@
    
 <body>
     <div class="row" style="margin:10px">
-        <div>
-            <button class="btn btn-success" id="Login">登入</button>
-        </div>
+        <div style="font-weight: 700">
+            <button class="btn btn-success" id="Login">以Google帳號登入</button>
+            <br />
+            <br />
+            注意：測試本範例你必須把本頁面(default.aspx)以及SSOcallback.aspx頁面中的所有ClientID與ClientSecret與redirecr_uri換成你自己申請的，否則將無法正確執行。</div>
     </div>
 </body>
 </html>

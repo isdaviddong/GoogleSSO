@@ -10,6 +10,12 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <br />
+            Token: (正式環境請勿將token顯示於畫面上)
+            <asp:TextBox ID="TextBoxToken" runat="server" Width="1052px"></asp:TextBox>
+            <br />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Get User Info" />
+
         </div>
     </form>
 </body>
