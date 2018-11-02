@@ -15,6 +15,7 @@ namespace WebApplication1
         {
             // 應用程式啟動時執行的程式碼
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
         }
     }
 }
