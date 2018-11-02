@@ -19,3 +19,7 @@ http://localhost:63577/GoogleSSO
 
 GCP上'已授權的重新導向 URI'必須註冊 
 http://localhost:63577/GoogleSSO
+
+
+## 程式碼說明
+請參考 http://studyhost.blogspot.com/2018/10/googlesso.html
